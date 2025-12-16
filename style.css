@@ -29,3 +29,26 @@ button:hover {
 h1 {
   margin-bottom: 10px;
 }
+.card p {
+  line-height: 1.6;
+  color: #444;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  margin: 8px 0;
+}
+@media (max-width: 600px) {
+  .card {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+.card button {
+  transition: 0.3s;
+}
+
