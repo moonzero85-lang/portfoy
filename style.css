@@ -50,6 +50,38 @@ h1 {
 }
 .card button {
   transition: 0.3s;
+/* 🌙 Dark Theme */
+body {
+  background-color: #121212;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+.card p {
+  color: #cccccc;
+}
+
+.card h1,
+.card h2 {
+  color: #ffffff;
+}
+
+.card a {
+  color: #9cdcfe;
+}
+
+.card button {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+.card button:hover {
+  background-color: #555555;
+}
+
 
 
 
