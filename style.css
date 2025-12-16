@@ -50,5 +50,9 @@ h1 {
 }
 .card button {
   transition: 0.3s;
+}.card {
+  border: 3px solid red;
 }
+
+
 
