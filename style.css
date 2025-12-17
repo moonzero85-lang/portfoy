@@ -12,13 +12,14 @@ body {
 /* Kart */
 .card {
   background: #1e1e1e;
-  color: #f1f1f1;
+  color: #ffffff;
   width: 360px;
   padding: 25px;
   border-radius: 16px;
   box-shadow: 0 15px 40px rgba(0,0,0,0.5);
   text-align: center;
 }
+
 .card > * { margin-bottom: 12px; }
 /* Başlıklar */
 .card h1 {
@@ -88,10 +89,6 @@ button:hover {
   }
 }
 
-.card p {
-  color: #ffffff !important;
-  opacity: 1 !important;
-}
 
 
 
