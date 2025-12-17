@@ -1,101 +1,4 @@
-body {
-  background-color: lightgray;
-  text-align: center;
-  font-family: Arial;
-}
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: black;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-.card {
-  background: #111;
-  color: #fff;
-  width: 360px;
-  padding: 25px;
-  border-radius: 16px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
-  text-align: center;
-}
-
-button:hover {
-  background-color: #444;
-}
-h1 {
-  margin-bottom: 10px;
-}
-.card p {
-  line-height: 1.6;
-  color: #444;
-}
-
-.card ul {
-  list-style: none;
-  padding: 0;
-}
-
-.card ul li {
-  margin: 8px 0;
-}
-@media (max-width: 600px) {
-  .card {
-    margin: 20px;
-    padding: 20px;
-  }
-}
-.card button {
-  transition: 0.3s;
-/* 🌙 Dark Theme */
-body {
-  background-color: #121212;
-}
-
-.card {
-  background-color: #1e1e1e;
-  color: #f1f1f1;
-}
-
-.card p {
-  color: #cccccc;
-}
-
-.card h1,
-.card h2 {
-  color: #ffffff;
-}
-
-.card a {
-  color: #9cdcfe;
-}
-
-.card button {
-  background-color: #3a3a3a;
-  color: #ffffff;
-}
-
-.card button:hover {
-  background-color: #555555;
-}
-
-.card h2 {
-  margin-top: 25px;
-}
-
-.card ul {
-  margin-top: 10px;
-}
-
-.card h2 {
-  margin-top: 30px;
-}
-
+/* Genel sayfa */
 body {
   margin: 0;
   min-height: 100vh;
@@ -105,15 +8,49 @@ body {
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Kart */
+.card {
+  background: #1e1e1e;
+  color: #f1f1f1;
+  width: 360px;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+/* Başlıklar */
 .card h1 {
   margin-top: 0;
   font-size: 26px;
+  color: #ffffff;
 }
 
 .card h2 {
+  margin-top: 30px;
   font-size: 20px;
   color: #00ffd5;
 }
+
+/* Paragraflar */
+.card p {
+  line-height: 1.6;
+  color: #cccccc;
+}
+
+/* Liste */
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.card ul li {
+  margin: 8px 0;
+}
+
+/* Link */
 .card a {
   color: #00ffd5;
   text-decoration: none;
@@ -123,6 +60,7 @@ body {
   text-decoration: underline;
 }
 
+/* Buton */
 button {
   margin-top: 15px;
   padding: 12px 20px;
@@ -138,6 +76,14 @@ button {
 button:hover {
   background: #00c9aa;
   transform: scale(1.05);
+}
+
+/* Mobil */
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+    margin: 20px;
+  }
 }
 
 
