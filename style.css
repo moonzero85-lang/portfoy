@@ -1,4 +1,9 @@
-/* Genel sayfa */
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+/* GENEL SAYFA */
 body {
   margin: 0;
   min-height: 100vh;
@@ -9,19 +14,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Kart */
+/* KART */
 .card {
   background: #1e1e1e;
   color: #ffffff;
-  width: 360px;
-  padding: 25px;
-  border-radius: 16px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+  width: 380px;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-.card > * { margin-bottom: 12px; }
-/* Başlıklar */
+/* KART İÇİ BOŞLUK */
+.card > * {
+  margin-bottom: 14px;
+}
+
+/* BAŞLIKLAR */
 .card h1 {
   margin-top: 0;
   font-size: 26px;
@@ -29,31 +38,30 @@ body {
 }
 
 .card h2 {
-  margin-top: 30px;
+  margin-top: 28px;
   font-size: 20px;
   color: #00ffd5;
 }
 
-/* Paragraflar */
+/* YAZILAR */
 .card p {
-  color: #ffffff;
-  font-size: 16px;
+  color: #eaeaea;
+  font-size: 15px;
+  line-height: 1.6;
 }
 
-
-
-/* Liste */
+/* LİSTE */
 .card ul {
   list-style: none;
   padding: 0;
-  margin-top: 10px;
+  margin: 10px 0 0;
 }
 
 .card ul li {
   margin: 8px 0;
 }
 
-/* Link */
+/* LİNK */
 .card a {
   color: #00ffd5;
   text-decoration: none;
@@ -63,17 +71,17 @@ body {
   text-decoration: underline;
 }
 
-/* Buton */
+/* BUTON */
 button {
-  margin-top: 15px;
-  padding: 12px 20px;
+  margin-top: 18px;
+  padding: 12px 22px;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   background: #00ffd5;
   color: #000;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
 button:hover {
@@ -81,19 +89,10 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* Mobil */
+/* MOBİL */
 @media (max-width: 600px) {
   .card {
     width: 100%;
     margin: 20px;
   }
 }
-
-
-
-
-
-
-
-
-
