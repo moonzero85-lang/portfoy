@@ -88,6 +88,11 @@ button:hover {
   }
 }
 
+.card p {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
 
 
 
