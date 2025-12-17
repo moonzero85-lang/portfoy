@@ -35,9 +35,10 @@ body {
 
 /* Paragraflar */
 .card p {
-  line-height: 1.6;
-  color: #cccccc;
+  color: #eaeaea;
+  font-size: 15px;
 }
+
 
 /* Liste */
 .card ul {
@@ -85,6 +86,7 @@ button:hover {
     margin: 20px;
   }
 }
+
 
 
 
