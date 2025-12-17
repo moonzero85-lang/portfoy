@@ -19,7 +19,7 @@ body {
   box-shadow: 0 15px 40px rgba(0,0,0,0.5);
   text-align: center;
 }
-
+.card > * { margin-bottom: 12px; }
 /* Başlıklar */
 .card h1 {
   margin-top: 0;
@@ -86,6 +86,7 @@ button:hover {
     margin: 20px;
   }
 }
+
 
 
 
