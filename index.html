@@ -1,91 +1,106 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="tr">
 <head>
+  <meta charset="UTF-8">
   <title>Portföy</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Eğer style.css kullanmayacaksan bunu silebilirsin -->
+  <!-- <link rel="stylesheet" href="style.css"> -->
+
   <style>
-  body {
-    background-color: #f2f2f2;
-    font-family: Arial, sans-serif;
-  }
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-  .card {
-    background-color: #ffffff;
-    max-width: 500px;
-    margin: 60px auto;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
+    .card {
+      background-color: #ffffff;
+      max-width: 500px;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
 
-  .card h1 {
-    margin-bottom: 10px;
-  }
+    .card > * {
+      margin-bottom: 12px;
+    }
 
-  .card button {
-    margin-top: 15px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    background-color: #333;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-  }
+    .card h1 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
 
-  .card button:hover {
-    background-color: #555;
-  }
-</style>
+    .card h2 {
+      margin-top: 25px;
+    }
 
+    .card ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .card ul li {
+      margin: 6px 0;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .card button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background-color: #333;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .card button:hover {
+      background-color: #555;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 
-  <title>Portföy</title>
-</head>
 <body>
 
-<div class="card">
+  <div class="card">
 
-  <h1>Benim Portföyüm</h1>
+    <h1>Benim Portföyüm</h1>
 
+    <p>Web geliştirmeyi öğreniyorum.</p>
 
-  <p>Web geliştirmeyi öğreniyorum.</p>
-<h2>Hakkımda</h2>
-<p>
-  Web geliştirmeye ilgi duyan bir bireyim.
-  HTML, CSS ve temel JavaScript öğreniyorum.
-  Amacım kendimi geliştirip sağlam ve yararlı projeler üretmek.
-</p>
+    <h2>Hakkımda</h2>
+    <p>
+      Web geliştirmeye ilgi duyan bir bireyim.
+      HTML, CSS ve temel JavaScript öğreniyorum.
+      Amacım kendimi geliştirip sağlam ve yararlı projeler üretmek.
+    </p>
 
-  <h2>Projelerim</h2>
-  <p>Öğrenirken yaptığım küçük çalışmalar</p>
+    <h2>Projelerim</h2>
+    <p>Öğrenirken yaptığım küçük çalışmalar</p>
 
-  <ul>
-<li>
-  <a href="#" target="_blank">İlk HTML sitem</a>
-</li>
+    <ul>
+      <li><a href="#" target="_blank">İlk HTML sitem</a></li>
+      <li>Basit portföy sitesi</li>
+    </ul>
 
+    <a href="https://instagram.com/monzer_o_88" target="_blank">
+      <button>İletişime Geç</button>
+    </a>
 
-    <li>Basit portföy sitesi</li>
-  </ul>
-
-  <a href="https://instagram.com/monzer_o_88" target="_blank">
-  <button>İletişime Geç</button>
-
-  </a>
-
-</div>
-
-
+  </div>
 
 </body>
 </html>
-
-
-
-
-
-
-
