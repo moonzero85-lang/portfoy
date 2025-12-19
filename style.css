@@ -96,3 +96,13 @@ button:hover {
     margin: 20px;
   }
 }
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px;
+  display: block;
+  border: 3px solid #00ffd5;
+}
+
